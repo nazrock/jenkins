@@ -4,10 +4,9 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World program success!!'
+                echo 'Hello World'
             }
-           
-   
-       }
+        }
     }
 }
+
